@@ -4,7 +4,7 @@ baseURL = "https://swathik90.github.io/my-cv/"
 languageCode = "en"
 title = "Swathi's CV"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "G-NGGP93EN1J"
 
 
 
@@ -13,7 +13,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
     author = "Swathi Kandiyil"
-    description = "My Professional Resume on Website"
+    description = "Multi Talented Engineer who loves Software Testing & Content Writing in addition to baking"
 
 
     primaryColor = "#54B689"
@@ -25,7 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Swathi Kandiyil"
-        tagline = "Quality Assurance Engineer"
+        tagline = "Copywriter | Software Tester"
         avatar = "avatar.jpg"
 
 
@@ -61,21 +61,41 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
-        title = "Technical"
+        title = "Content Writer"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        details = "SEO Practices"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
+        details = "Web Content Writer"
         [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
+        details = "Copywriter"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "Technical Documentation"
         [[params.skills.list.items]]
-        details = "Object-oriented design"
+        details = "Content Research"
         [[params.skills.list.items]]
-        details = "Design and implement database structures"
+        details = "Content Editor"
+
+        [[params.skills.list]]
+        title = "Software Tester"
         [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        details = "Manual Testing"
+        [[params.skills.list.items]]
+        details = "User Testing"
+        [[params.skills.list.items]]
+        details = "Quality Assurance"
+        [[params.skills.list.items]]
+        details = "Web Application Testing"
+
+        [[params.skills.list]]
+        title = "Programming"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "C++"
+        [[params.skills.list.items]]
+        details = "MATLAB"
+        [[params.skills.list.items]]
+        details = "C"
 
         [[params.skills.list]]
         title = "Professional"
@@ -99,13 +119,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
+        degree = "Graduate work: Master of Communication Engineering with PhD"
+        university = "Indian Institute of Technology, Madras"
+        dates = "2013 - 2019"
         [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
+        degree = "BTech Electronics and communication engineering"
+        university = "Amrita School of Engineering, Coimbatore"
+        dates = "2007 - 2011"
 
 
 
@@ -115,7 +135,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.awards]
-        enable = true
+        enable = false
 
         [[params.awards.list]]
         name = "Award Lorem Ipsum"
@@ -140,10 +160,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "English"
         level = "Native"
         [[params.languages.list]]
-        name = "Spanish"
+        name = "Hindi"
         level = "Professional"
-
-
+        [[params.languages.list]]
+        name = "Malayalam"
+        level = "Native"
+        [[params.languages.list]]
+        name = "German"
+        level = "Beginner"
 
 
 
@@ -154,11 +178,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "Climbing"
+        name = "Baking"
         [[params.interests.list]]
-        name = "Snowboarding"
-        [[params.interests.list]]
-        name = "Photography"
+        name = "Trekking"
         [[params.interests.list]]
         name = "Travelling"
 
@@ -267,7 +289,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.information]
-        enable = true
+        enable = false
 
         [[params.information.list]]
         title = "Papers"
@@ -292,16 +314,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        url = "//github.com/swathik90"
+        title = "swathik90"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
-        [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        url = "//linkedin.com/in/swathi-kandiyil-482985166"
+        title = "Swathi Kandiyil"
 
 
 
