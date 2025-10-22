@@ -6,37 +6,22 @@ title = "Swathi's CV"
 theme = "hugo-devresume-theme"
 googleAnalytics = "G-NGGP93EN1J"
 
-
-
-
-
-
 [params]
     author = "Swathi Kandiyil"
-    description = "Multi Talented Engineer who loves Software Testing & Content Writing in addition to baking"
+    description = "Master's graduate in Electrical Engineering with expertise in communication systems, signal processing, and machine learning"
 
-
-    primaryColor = "#54B689"
-    textPrimaryColor = "#292929"
-
-
-
+    primaryColor = "#0891b2"
+    textPrimaryColor = "#000000"
 
     [params.profile]
         enable = true
         name = "Swathi Kandiyil"
-        tagline = "Copywriter | Software Tester"
+        tagline = "Electrical Engineering | Communication Systems | Signal Processing"
         avatar = "avatar.jpg"
-
-
-
-
-
-
 
     [params.contact]
         enable = true
-        location = "Rostock, Germany"
+        location = "Lübeck, Germany"
 
         [[params.contact.list]]
         icon = "fab fa-linkedin"
@@ -45,119 +30,136 @@ googleAnalytics = "G-NGGP93EN1J"
         [[params.contact.list]]
         icon = "fas fa-at"
         url = "mailto:0rgxq92fb@mozmail.com"
-        text = "protected@mozmail.com"
+        text = "0rgxq92fb@mozmail.com"
         [[params.contact.list]]
         icon = "fab fa-github"
         url = "https://github.com/swathik90"
         text = "github/swathik90"
 
-
-
-
-
-
-
     [params.skills]
         enable = true
-
-        [[params.skills.list]]
-        title = "Content Writer"
-        [[params.skills.list.items]]
-        details = "SEO Practices"
-        [[params.skills.list.items]]
-        details = "Web Content Writer"
-        [[params.skills.list.items]]
-        details = "Copywriter"
-        [[params.skills.list.items]]
-        details = "Technical Documentation"
-        [[params.skills.list.items]]
-        details = "Content Research"
-        [[params.skills.list.items]]
-        details = "Content Editor"
-
-        [[params.skills.list]]
-        title = "Software Tester"
-        [[params.skills.list.items]]
-        details = "Manual Testing"
-        [[params.skills.list.items]]
-        details = "User Testing"
-        [[params.skills.list.items]]
-        details = "Quality Assurance"
-        [[params.skills.list.items]]
-        details = "Web Application Testing"
 
         [[params.skills.list]]
         title = "Programming"
         [[params.skills.list.items]]
         details = "Python"
         [[params.skills.list.items]]
+        details = "PyTorch"
+        [[params.skills.list.items]]
+        details = "NumPy"
+        [[params.skills.list.items]]
         details = "C++"
+        [[params.skills.list.items]]
+        details = "C"
         [[params.skills.list.items]]
         details = "MATLAB"
         [[params.skills.list.items]]
-        details = "C"
+        details = "Julia"
+        [[params.skills.list.items]]
+        details = "Git/GitHub"
+        [[params.skills.list.items]]
+        details = "OpenMP"
 
         [[params.skills.list]]
-        title = "Professional"
+        title = "Communication Engineering"
         [[params.skills.list.items]]
-        details = "Effective communication"
+        details = "Signal Processing"
         [[params.skills.list.items]]
-        details = "Team player"
+        details = "Error Control Coding"
         [[params.skills.list.items]]
-        details = "Strong problem solver"
+        details = "MIMO OFDM Simulation"
         [[params.skills.list.items]]
-        details = "Good time management"
+        details = "Wireless Communication Systems"
 
+        [[params.skills.list]]
+        title = "Mathematics"
+        [[params.skills.list.items]]
+        details = "Probability & Statistics"
+        [[params.skills.list.items]]
+        details = "Numerical Methods"
+        [[params.skills.list.items]]
+        details = "Calculus"
+        [[params.skills.list.items]]
+        details = "Linear Algebra"
 
+        [[params.skills.list]]
+        title = "Software Testing"
+        [[params.skills.list.items]]
+        details = "Manual Testing"
+        [[params.skills.list.items]]
+        details = "User Testing"
+        [[params.skills.list.items]]
+        details = "Web Application Testing"
+        [[params.skills.list.items]]
+        details = "Black Box Testing"
 
-
-
-
-
+        [[params.skills.list]]
+        title = "Content Creation"
+        [[params.skills.list.items]]
+        details = "Content Research"
+        [[params.skills.list.items]]
+        details = "Web Content Writing"
+        [[params.skills.list.items]]
+        details = "SEO Optimization"
+        [[params.skills.list.items]]
+        details = "Technical Documentation"
 
     [params.education]
         enable = true
 
         [[params.education.list]]
-        degree = "Graduate work: Master of Communication Engineering with PhD"
-        university = "Indian Institute of Technology, Madras"
-        grade = "CGPA: 8.5"
-        dates = "2013 - 2019"
+        degree = "Master of Science in Electrical Engineering - Informatik"
+        university = "Universität Rostock"
+        grade = "Grade: 1.9"
+        dates = "2023 - 2025"
+        [[params.education.list.items]]
+        details = "Master's Thesis: Investigation of Quantised Spatial Modulation Systems"
+        [[params.education.list.items]]
+        details = "Developed simulation models using Python, PyTorch, and NumPy"
+        [[params.education.list.items]]
+        details = "Coursework: Digital Signal Processing, Error Control Coding, Artificial Neural Networks, Explainable AI, High Performance Computing"
+
         [[params.education.list]]
-        degree = "BTech Electronics and communication engineering"
+        degree = "Master's & PhD* in Communication Engineering"
+        university = "Indian Institute of Technology, Madras"
+        grade = "CGPA: 8.5/10"
+        dates = "2013 - 2019"
+        [[params.education.list.items]]
+        details = "Completed graduate coursework and qualified for PhD-level research"
+        [[params.education.list.items]]
+        details = "PhD research (incomplete): Mean Field Theory Analysis of Dynamic Bandwidth Allocation in WiFi Communication"
+
+        [[params.education.list]]
+        degree = "BTech in Electronics and Communication Engineering"
         university = "Amrita School of Engineering, Coimbatore"
-        grade = "CGPA: 8.7"
+        grade = "CGPA: 8.34/10"
         dates = "2007 - 2011"
+        [[params.education.list.items]]
+        details = "Internship at Airport Authority of India"
+        [[params.education.list.items]]
+        details = "Bachelor's Thesis: Fault Diagnosis using Zero-Decision Diagrams"
+
         [[params.education.list]]
         degree = "12th Grade"
         university = "Kendriya Vidyalaya, Coimbatore"
         grade = "Total: 94%"
         dates = "2006 - 2007"
 
-
-
-
-
-
-
     [params.awards]
-        enable = false
+        enable = true
 
         [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
+        name = "Linear Regression for Business Statistics"
+        body = "Coursera"
+        date = "2020"
         [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
-
-
-
-
-
-
-
+        name = "Introduction to Data Analysis Using Excel"
+        body = "Coursera"
+        date = "2020"
+        [[params.awards.list]]
+        name = "Business Applications of Hypothesis Testing"
+        body = "Coursera"
+        date = "2020"
 
     [params.languages]
         enable = true
@@ -167,18 +169,16 @@ googleAnalytics = "G-NGGP93EN1J"
         level = "Native"
         [[params.languages.list]]
         name = "Hindi"
-        level = "Professional"
+        level = "Native"
         [[params.languages.list]]
         name = "Malayalam"
         level = "Native"
         [[params.languages.list]]
+        name = "Tamil"
+        level = "Conversational"
+        [[params.languages.list]]
         name = "German"
-        level = "Beginner"
-
-
-
-
-
+        level = "Intermediate"
 
     [params.interests]
         enable = true
@@ -186,48 +186,30 @@ googleAnalytics = "G-NGGP93EN1J"
         [[params.interests.list]]
         name = "Baking"
         [[params.interests.list]]
-        name = "Trekking"
-        [[params.interests.list]]
         name = "Travelling"
-
-
-
-
-
-
-
+        [[params.interests.list]]
+        name = "Gardening"
+        [[params.interests.list]]
+        name = "Reading"
 
     [params.summary]
         enable = true
-        text = "With a strong foot in Electrical and Communication Engineering, I started my career as Software Test Engineer for embedded systems. I later pursued further research in the Communication Engineering sector. Concurrently, I found my interest incline towards Copywriting and Quality Assurance tasks."
-
-
-
-
-
-
-
+        text = "Master's graduate in Electrical Engineering – Information Technology from Universität Rostock, with hands-on experience in communication systems, signal processing, and applied machine learning. Completed thesis on quantised spatial modulation systems using Python, PyTorch, and NumPy. Proficient in developing and validating algorithms for wireless communication applications, seeking roles to apply advanced technical expertise in industry or R&D."
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "Copy Writer / Content Writer"
-        dates = "2018 - 2021"
-        company = "Wittypen"
-        details = "Delivered well-researched and grammatically correct content pieces in various formats for multiple verticals Incorporated SEO techniques and parameters for better content visibility ranking."
-        [[params.experience.list.items]]
-        details = "SEO Optimised content"
-        [[params.experience.list.items]]
-        details = "Technical Research and Product Analysis"
-        [[params.experience.list.items]]
-        details = "Engaging content development"
+        title = "Student Job - Research"
+        dates = "2024 - 2025"
+        company = "Universität Rostock"
+        details = "Analyzed Approximate Message Passing (AMP) algorithms for decoding in spatial modulation systems. Investigated performance variations and convergence issues through simulation and result evaluation using Python (PyTorch)."
 
         [[params.experience.list]]
-        title = "Quality Assurance / Software Tester"
+        title = "Software Engineer (Part Time)"
         dates = "2015 - 2020"
         company = "DezignEx"
-        details = "As a Manual QA tester for Web and Mobile applications, I had good working experience in writing Test Cases and Test Suites. The QA was an integral part of DevOps in an Agile framework. During this time I had the opportunity to work with several test tools and automation tools. I am driven and passionate about technology and have a key eye for the details which makes me good at Quality and Assurance."
+        details = "Performed manual testing for web and mobile applications, designing and executing test cases within an Agile DevOps environment. Ensured high-quality software delivery through meticulous validation."
         [[params.experience.list.items]]
         details = "Manual Testing"
         [[params.experience.list.items]]
@@ -236,77 +218,44 @@ googleAnalytics = "G-NGGP93EN1J"
         details = "Web Application Testing"
 
         [[params.experience.list]]
-        title = "Graduate Teaching Assistant"
-        dates = "2013 - 2019"
-        company = "Indian Institute of Technology, Madras"
-        details = "Assisted professors in correcting exam papers, clearing student doubts, evaluating assignments and creating study material."
+        title = "Part-time Content & Tutoring"
+        dates = "2017 - 2021"
+        company = "Wittypen, Chegg, Course Hero"
+        details = "Created SEO-optimized content and provided tutoring support. Delivered clear explanations and step-by-step solutions to support student learning across multiple platforms."
 
         [[params.experience.list]]
-        title = "Software Test Engineer"
+        title = "Teaching Assistant"
+        dates = "2013 - 2019"
+        company = "Indian Institute of Technology, Madras"
+        details = "Supported professors by evaluating exam papers, addressing student queries, evaluating assignments, and creating study materials."
+
+        [[params.experience.list]]
+        title = "Associate Software Engineer"
         dates = "2011 - 2012"
-        company = "Robert Bosch Engineering & Business Solutions Private Limited"
-        details = "I was part of the agile test team involved in testing the embedded systems for ABS & ECS of automobiles. The project was for clients like Mercedes and BMW. Main experience with manual testing. We used to perform black box testing as well."
+        company = "Robert Bosch Engineering & Business Solutions"
+        details = "Validated embedded systems for ABS and ECS in automobiles. Performed manual black box testing for clients including Mercedes and BMW."
         [[params.experience.list.items]]
-        details = "Blackbox Testing"
+        details = "Embedded Systems Testing"
         [[params.experience.list.items]]
-        details = "Embeded Systems testing"
-
-
-
-
-
-
-
-
-
+        details = "Black Box Testing"
+        [[params.experience.list.items]]
+        details = "Agile Team Collaboration"
 
     [params.projects]
-        enable = false
+        enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "Investigation of Quantised Spatial Modulation Systems"
+        meta = "Master's Thesis"
+        tagline = "Compared quantised spatial modulation using AMP decoding with conventional MIMO-OFDM. Designed and implemented simulations in Python to evaluate performance based on error rate curves."
 
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-
-
-
-
-
-
-
-
+        title = "Comparison of Spatial Modulation and MIMO Techniques"
+        meta = "Pre-Thesis Project"
+        tagline = "Compared spatial modulation with AMP-based decoding against conventional MIMO systems without OFDM. Designed and implemented simulations in Python to evaluate system performance."
 
     [params.information]
         enable = false
-
-        [[params.information.list]]
-        title = "Papers"
-        [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
-
-
-
-
-
-
-
 
     [params.social]
         enable = true
@@ -320,11 +269,5 @@ googleAnalytics = "G-NGGP93EN1J"
         url = "//linkedin.com/in/swathi-kandiyil-482985166"
         title = "Swathi Kandiyil"
 
-
     [params.footer]
-    copyright = "CaptV"
-
-
-
-
-
+        copyright = "CaptV"
